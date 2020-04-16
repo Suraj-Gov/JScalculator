@@ -13,6 +13,7 @@ body {
 h1 {
     text-align: center;
     margin: 1em;
+    font-size: 5vh;
     text-transform: uppercase;
     user-select: none;
     letter-spacing: 0.1em;
@@ -20,7 +21,7 @@ h1 {
 
 .container {
     min-width: 25em;
-    max-width: 30%;
+    max-width: 70vw;
     margin: 0 auto;
 }
 
@@ -28,7 +29,7 @@ h1 {
     width: inherit;
     text-align: right;
     background-color: black;
-    font-size: 3em;
+    font-size: 5vh;
     padding: 0.3em;
     padding-bottom: 0.5em;
 }
@@ -40,7 +41,7 @@ h1 {
 }
 
 .button-row > button {
-    height: 3em;
+    height: 10vh;
 }
 
 .two-col {
@@ -56,7 +57,7 @@ h1 {
 }
 
 .two-col , .one-col , .three-col {
-    font-size: 2em;
+    font-size: 4vh;
     float: left;
     background-color: #313131;
     border: 1px solid black;
