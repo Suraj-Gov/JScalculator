@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 1em;
+    text-transform: uppercase;
+    user-select: none;
+    letter-spacing: 0.1em;
+}
+
+.container {
+    min-width: 25em;
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+.display-box{
+    width: inherit;
+    text-align: right;
+    background-color: black;
+    font-size: 3em;
+    padding: 0.3em;
+    padding-bottom: 0.5em;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.button-row > button {
+    height: 3em;
+}
+
+.two-col {
+    width: 50%;
+}
+
+.one-col {
+    width: 25%;
+}
+
+.three-col {
+    width: 75%;
+}
+
+.two-col , .one-col , .three-col {
+    font-size: 2em;
+    float: left;
+    background-color: #313131;
+    border: 1px solid black;
+    color: white;
+}
+
+.two-col:hover, .one-col:hover, .three-col:hover {
+    background-color: #383838;
+}
+
+.two-col:active, .one-col:active, .three-col:active {
+    background-color: #131313;
+}
+
+.two-col:focus, .one-col:focus, .three-col:focus {
+    outline: 0;
+}
+
+.operators:nth-child(n+3) {
+    background-color: rgb(182, 118, 0);
+    color: white;
+}
+
+.operators:hover:nth-child(n+3) {
+    background-color: rgb(194, 127, 2);
+}
+
+.operators:active:nth-child(n+3) {
+    background-color: rgb(153, 99, 0);
+}
+
+.display {
+    position: relative;
+}
+
+.expression {
+    position: absolute;
+    bottom: 0;
+    color: rgba(255, 255, 255, 0.609);
+    padding: 0.3em;
+}
