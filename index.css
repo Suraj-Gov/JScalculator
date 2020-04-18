@@ -21,36 +21,11 @@ h1 {
 
 .container {
     margin: 0 auto;
+    max-width: 50vh;
 }
 
-@media (max-width: 1080px) {
-    .container {
-        max-width: 80vw;
-        min-width: 60vw;
-    }
-    .button-row > button {
-        height: 12vh;
-    }
-}
-
-@media (max-width: 1500px) {
-    .container {
-        max-width: 80vw;
-        min-width: 60vw;
-    }
-    .button-row > button {
-        height: 12vh;
-    }
-}
-
-@media (max-width: 3200px) {
-    .container {
-        max-width: 60vw;
-        min-width: 60vw;
-    }
-    .button-row > button {
-        height: 12vh;
-    }
+.button-row > button {
+    height: 10vh;
 }
 
 .display-box{
