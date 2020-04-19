@@ -5,35 +5,35 @@
     font-family: 'Fira Code', monospace;
 }
 
-html {
-    touch-action: manipulation;
-}
-
 body {
     background-color: #121212;
     color: white;
 }
 
+html {
+    touch-action: manipulation;
+}
+
 h1 {
     text-align: center;
     margin: 1em;
-    font-size: 6em;
+    font-size: 5vh;
     text-transform: uppercase;
     user-select: none;
     letter-spacing: 0.1em;
 }
 
 .container {
-    margin: 2em auto;
-    max-width: 50em;
+    margin: 0 auto;
+    max-width: 50vh;
 }
 
 .button-row > button {
-    height: 2.7em;
+    height: 10vh;
 }
 
 .button-row {
-    margin-bottom: 1em;
+    margin: 0.8vh;
 }
 
 .display-box{
@@ -43,16 +43,13 @@ h1 {
     font-size: 5vh;
     padding: 0.3em;
     padding-bottom: 0.5em;
-    margin-bottom: 0.3em;
-    border-radius: 0.3em;
-    border: 2px solid orange;
+    border-radius: 0.5em;
 }
 
 .buttons {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
 }
 
 .two-col {
@@ -68,14 +65,13 @@ h1 {
 }
 
 .two-col , .one-col , .three-col {
-    font-size: 4em;
+    font-size: 4vh;
     float: left;
     background-color: #313131;
     border: 1px solid black;
     color: white;
-    border: 2px solid rgb(92, 92, 92);
-    border-radius: 1.5em;
     margin: 2.5%;
+    border-radius: 2em;
 }
 
 .two-col:hover, .one-col:hover, .three-col:hover {
@@ -110,8 +106,8 @@ h1 {
 .expression {
     position: absolute;
     bottom: 0;
-    left: 0.5em;
     color: rgba(255, 255, 255, 0.609);
     padding: 0.3em;
-    font-size: 1.7em;
+    padding-left: 1em;
+    font-size: 2vh;
 }
