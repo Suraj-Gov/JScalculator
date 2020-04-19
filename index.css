@@ -13,19 +13,23 @@ body {
 h1 {
     text-align: center;
     margin: 1em;
-    font-size: 5vh;
+    font-size: 6em;
     text-transform: uppercase;
     user-select: none;
     letter-spacing: 0.1em;
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 50vh;
+    margin: 2em auto;
+    max-width: 50em;
 }
 
 .button-row > button {
-    height: 10vh;
+    height: 2.7em;
+}
+
+.button-row {
+    margin-bottom: 1em;
 }
 
 .display-box{
@@ -35,32 +39,39 @@ h1 {
     font-size: 5vh;
     padding: 0.3em;
     padding-bottom: 0.5em;
+    margin-bottom: 0.3em;
+    border-radius: 0.3em;
+    border: 2px solid orange;
 }
 
 .buttons {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
 }
 
 .two-col {
-    width: 50%;
+    width: 45%;
 }
 
 .one-col {
-    width: 25%;
+    width: 20%;
 }
 
 .three-col {
-    width: 75%;
+    width: 70%;
 }
 
 .two-col , .one-col , .three-col {
-    font-size: 4vh;
+    font-size: 4em;
     float: left;
     background-color: #313131;
     border: 1px solid black;
     color: white;
+    border: 2px solid rgb(92, 92, 92);
+    border-radius: 1.5em;
+    margin: 2.5%;
 }
 
 .two-col:hover, .one-col:hover, .three-col:hover {
@@ -95,6 +106,8 @@ h1 {
 .expression {
     position: absolute;
     bottom: 0;
+    left: 0.5em;
     color: rgba(255, 255, 255, 0.609);
     padding: 0.3em;
+    font-size: 1.7em;
 }
