@@ -19,6 +19,9 @@ for(let i = 0; i < operators.length; i++) {
 }
 
 function inputHandle(givenInput) {
+    if(display.innerText.length >= 8) {
+        return;
+    }
     if(display.innerText == "Infinity") clear(0);
     if(display.innerText == '0') display.innerText = givenInput;
     else display.innerText += givenInput;
